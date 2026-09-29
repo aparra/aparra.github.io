@@ -14,7 +14,7 @@ Anderson Parra builds resilient cloud and API platform infrastructure for high-d
 
 ## Career highlights
 
-- SeatGeek (2020–present): Staff Software Engineer, Cloud Platform / API Platform — Virtual Waiting Room, multi-layer resilience (edge, gateway, Kubernetes), Kong ChatGPT signature validation
+- SeatGeek (2020–present): Staff Software Engineer, Cloud Platform / API Platform — Virtual Waiting Room (AWS Architecture Blog co-author, 2021), edge-to-core resilience (Fastly shielding + Kong + k6; ChairNerd author, 2025), Kong ChatGPT signature validation
 - Prior: Revolut, LiveIntent (Berlin), SoundCloud (Berlin), Ericsson (Ireland), Amil (São Paulo)
 
 ## Open source & projects
@@ -25,10 +25,12 @@ Anderson Parra builds resilient cloud and API platform infrastructure for high-d
 
 ## Writing & talks
 
+- [Shielding the Core (ChairNerd, Jul 2025)](https://chairnerd.seatgeek.com/shielding-the-core/) — Fastly CDN shielding, Kong rate limits, k6 validation; authored by Ander Parra
 - [Shielding the Core (QCon London 2026)](https://qconlondon.com/presentation/mar2026/shielding-core-architecting-resilience-multi-layer-defenses)
 - [InfoQ write-up of that talk](https://www.infoq.com/news/2026/03/shielding-the-core-parra/)
 - [Chasing Signatures (ChairNerd)](https://chairnerd.seatgeek.com/chasing-signature/)
 - [InfoQ podcast: high-demand ticket onsales](https://www.infoq.com/podcasts/handling-high-demand-ticket-on-sales-parra-pellegrino/)
+- [AWS Architecture: Virtual Waiting Room at SeatGeek](https://aws.amazon.com/blogs/architecture/build-a-virtual-waiting-room-with-amazon-dynamodb-and-aws-lambda-at-seatgeek/) — co-author as Ander Parra (Jul 2021)
 - [AWS HPC: browser load testing with AWS Batch](https://aws.amazon.com/blogs/hpc/how-seatgeek-simulates-massive-load-with-aws-batch-to-prepare-for-big-events/)
 - [AWS Architecture: multi-tenant AuthN/AuthZ and rate limiting](https://aws.amazon.com/blogs/architecture/how-seatgeek-uses-aws-to-control-authorization-authentication-and-rate-limiting-in-a-multi-tenant-saas-application/)
 - [QCon London 2022 speaker page](https://archive.qconlondon.com/london2022/speakers/anderson-parra)

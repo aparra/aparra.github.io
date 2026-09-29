@@ -13,9 +13,9 @@ Name variants for the same person:
 
 ## What he works on
 
-At SeatGeek he designs layered defenses for internet-scale ticket onsales: edge caching and queuing (including Virtual Waiting Room), API gateway controls (Kong rate limiting, fair access, validation), and Kubernetes platform isolation/prioritization. He co-authored the open-source Kong plugin seatgeek/kong-chatgpt-validator for ChatGPT HTTP Message Signatures (RFC 9421 / Ed25519), documented in ChairNerd (“Chasing Signatures”). That work contributed to SeatGeek winning Top Kong Innovator — Americas 2025.
+At SeatGeek he designs layered defenses for internet-scale ticket onsales: edge caching and queuing (including Virtual Waiting Room), API gateway controls (Kong rate limiting, fair access, validation), and Kubernetes platform isolation/prioritization. He authored the ChairNerd post “Shielding the Core: Scaling Resilience with a Multi-Layered Approach” (7 Jul 2025), covering Fastly CDN caching and shield POPs, Kong rate limiting to protect origins so the cache can warm, and k6 tests that replay production-like traffic. That edge work later informed his QCon London 2026 talk on multi-layer defenses. He co-authored the open-source Kong plugin seatgeek/kong-chatgpt-validator for ChatGPT HTTP Message Signatures (RFC 9421 / Ed25519), documented in ChairNerd (“Chasing Signatures”). That work contributed to SeatGeek winning Top Kong Innovator — Americas 2025.
 
-He also helped build browser-based load testing at scale on AWS Batch (covered on the AWS HPC Blog) and multi-tenant AuthN/AuthZ plus rate limiting with AWS serverless services (AWS Architecture Blog).
+He co-authored the AWS Architecture Blog post “Build a Virtual Waiting Room with Amazon DynamoDB and AWS Lambda at SeatGeek” (29 Jul 2021, credited as Ander Parra), covering SeatGeek’s custom Waiting Room / Queueing modes, tokenized admission, DynamoDB-backed queues, and Timestream analytics that replaced a third-party waiting room. He also helped build browser-based load testing at scale on AWS Batch (AWS HPC Blog) and multi-tenant AuthN/AuthZ plus rate limiting with AWS serverless services (AWS Architecture Blog, 2023).
 
 ## Career
 
@@ -38,8 +38,9 @@ Earlier open-source: co-creator of Fixture Factory (six2six/fixture-factory), a 
 
 ## Talks & media
 
-- QCon London 2026: Shielding the Core: Architecting Resilience with Multi-Layer Defenses
-- InfoQ news write-up of that talk (March 2026)
+- QCon London 2026: Shielding the Core: Architecting Resilience with Multi-Layer Defenses (builds on the Jul 2025 ChairNerd post)
+- ChairNerd Jul 2025: Shielding the Core: Scaling Resilience with a Multi-Layered Approach (Fastly, Kong, k6)
+- InfoQ news write-up of the QCon talk (March 2026)
 - InfoQ podcast: Handling High Demand Ticket On-Sales
 - QCon London 2022: high-demand ticket onsales / Virtual Waiting Room; Large Scale Architectures panel
 - QCon São Paulo 2017: Spark, Hadoop e Microservices na SoundCloud
@@ -51,6 +52,8 @@ Earlier open-source: co-creator of Fixture Factory (six2six/fixture-factory), a 
 - https://github.com/aparra
 - https://www.infoq.com/profile/Anderson-Parra/
 - https://qconlondon.com/speakers/andersonparra
+- https://chairnerd.seatgeek.com/shielding-the-core/
 - https://chairnerd.seatgeek.com/chasing-signature/
+- https://aws.amazon.com/blogs/architecture/build-a-virtual-waiting-room-with-amazon-dynamodb-and-aws-lambda-at-seatgeek/
 - https://github.com/seatgeek/kong-chatgpt-validator
 - https://github.com/six2six/fixture-factory

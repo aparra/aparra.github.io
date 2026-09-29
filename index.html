@@ -114,10 +114,12 @@
           "https://www.infoq.com/profile/Anderson-Parra/",
           "https://qconlondon.com/speakers/andersonparra",
           "https://archive.qconlondon.com/london2022/speakers/anderson-parra",
+          "https://chairnerd.seatgeek.com/shielding-the-core/",
           "https://chairnerd.seatgeek.com/chasing-signature/",
           "https://github.com/seatgeek/kong-chatgpt-validator",
           "https://github.com/six2six/fixture-factory",
           "https://sol.sbc.org.br/index.php/wperformance/article/view/13574",
+          "https://aws.amazon.com/blogs/architecture/build-a-virtual-waiting-room-with-amazon-dynamodb-and-aws-lambda-at-seatgeek/",
           "https://aws.amazon.com/blogs/hpc/how-seatgeek-simulates-massive-load-with-aws-batch-to-prepare-for-big-events/",
           "https://aws.amazon.com/blogs/architecture/how-seatgeek-uses-aws-to-control-authorization-authentication-and-rate-limiting-in-a-multi-tenant-saas-application/",
           "https://www.infoq.com/podcasts/handling-high-demand-ticket-on-sales-parra-pellegrino/",
@@ -154,7 +156,7 @@
         <a href="https://github.com/aparra" target="_blank" rel="noopener noreferrer me" class="text-emerald-400 hover:text-emerald-300 transition">GitHub</a>
         <a href="https://www.infoq.com/profile/Anderson-Parra/" target="_blank" rel="noopener noreferrer me" class="text-emerald-400 hover:text-emerald-300 transition">InfoQ</a>
         <a href="https://qconlondon.com/speakers/andersonparra" target="_blank" rel="noopener noreferrer me" class="text-emerald-400 hover:text-emerald-300 transition">QCon London</a>
-        <a href="https://chairnerd.seatgeek.com/chasing-signature/" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 transition">ChairNerd</a>
+        <a href="https://chairnerd.seatgeek.com/shielding-the-core/" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 transition">ChairNerd</a>
       </div>
     </header>
 
@@ -246,16 +248,32 @@
       <h2 id="impact-heading" class="text-xl font-bold uppercase tracking-wider text-slate-400 border-l-4 border-emerald-500 pl-3 mb-6">Production &amp; Open Source</h2>
       <div class="grid md:grid-cols-2 gap-6">
 
-        <div class="bg-slate-900 border border-slate-800/60 p-5 rounded-lg">
-          <h3 class="font-bold text-slate-200">Virtual Waiting Room</h3>
-          <p class="text-sm text-slate-400 mt-2 leading-relaxed">Technical work on SeatGeek’s high-demand queuing topology: absorb traffic stampedes at the edge, bridge Kubernetes HPA scaling gaps, and protect core services during major onsales.</p>
+        <div class="bg-slate-900 border border-slate-800/60 p-5 rounded-lg md:col-span-2">
+          <div class="flex flex-wrap justify-between items-baseline gap-2">
+            <h3 class="font-bold text-slate-200">Virtual Waiting Room</h3>
+            <span class="text-xs font-mono px-2 py-0.5 rounded bg-amber-950 text-amber-400 border border-amber-800 shrink-0">AWS Architecture Blog</span>
+          </div>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed">
+            Co-designed SeatGeek’s in-house waiting room and queueing platform (DynamoDB, Lambda, API Gateway, Timestream)—replacing a third-party system with configurable Waiting Room and FIFO Queueing modes, tokenized admission to the Protected Zone, and custom queue analytics.
+            Featured as co-author (<em>Ander Parra</em>) on the
+            <a href="https://aws.amazon.com/blogs/architecture/build-a-virtual-waiting-room-with-amazon-dynamodb-and-aws-lambda-at-seatgeek/" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300">AWS Architecture Blog</a>
+            (July 2021). Still central to high-demand onsales alongside edge/gateway/platform shielding.
+          </p>
         </div>
 
-        <div class="bg-slate-900 border border-slate-800/60 p-5 rounded-lg">
-          <div class="flex justify-between items-baseline gap-2">
-            <h3 class="font-bold text-slate-200">Multi-layer resilience shields</h3>
+        <div class="bg-slate-900 border border-slate-800/60 p-5 rounded-lg md:col-span-2">
+          <div class="flex flex-wrap justify-between items-baseline gap-2">
+            <h3 class="font-bold text-slate-200">Edge-to-core resilience shields</h3>
+            <span class="text-xs font-mono px-2 py-0.5 rounded bg-amber-950 text-amber-400 border border-amber-800 shrink-0">ChairNerd · QCon</span>
           </div>
-          <p class="text-sm text-slate-400 mt-2 leading-relaxed">Edge (Fastly cache/queue/filter), gateway (Kong rate limits, fair access, validation), and platform (isolation, prioritization, observability) defenses presented at QCon London 2026.</p>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed">
+            Extended platform defenses out to the edge: Fastly CDN caching and shield POPs, Kong rate limiting to keep origins healthy so the cache can warm, and k6 load tests that replay production-like traffic.
+            Authored
+            <a href="https://chairnerd.seatgeek.com/shielding-the-core/" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300">Shielding the Core: Scaling Resilience with a Multi-Layered Approach</a>
+            on ChairNerd (Jul 2025), then deepened the story for
+            <a href="https://qconlondon.com/presentation/mar2026/shielding-core-architecting-resilience-multi-layer-defenses" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300">QCon London 2026</a>
+            (edge / gateway / platform shields).
+          </p>
         </div>
 
         <div class="bg-slate-900 border border-slate-800/60 p-5 rounded-lg">
@@ -294,6 +312,11 @@
       <h2 id="pubs-heading" class="text-xl font-bold uppercase tracking-wider text-slate-400 border-l-4 border-emerald-500 pl-3 mb-6">Publications, talks &amp; writing</h2>
       <ul class="space-y-3 font-mono text-sm">
         <li class="bg-slate-900/40 p-3 border border-slate-900 rounded hover:border-slate-800 transition">
+          <span class="text-slate-500">[ChairNerd 2025]</span>
+          <a href="https://chairnerd.seatgeek.com/shielding-the-core/" target="_blank" rel="noopener noreferrer" class="text-slate-200 hover:text-emerald-400 transition ml-2">Shielding the Core: Scaling Resilience with a Multi-Layered Approach</a>
+          <span class="text-slate-600"> — Fastly shielding, Kong rate limits, k6 validation</span>
+        </li>
+        <li class="bg-slate-900/40 p-3 border border-slate-900 rounded hover:border-slate-800 transition">
           <span class="text-slate-500">[QCon London 2026]</span>
           <a href="https://qconlondon.com/presentation/mar2026/shielding-core-architecting-resilience-multi-layer-defenses" target="_blank" rel="noopener noreferrer" class="text-slate-200 hover:text-emerald-400 transition ml-2">Shielding the Core: Architecting Resilience with Multi-Layer Defenses</a>
           <span class="text-slate-600"> · </span>
@@ -308,6 +331,11 @@
           <span class="text-slate-500">[InfoQ Podcast]</span>
           <a href="https://www.infoq.com/podcasts/handling-high-demand-ticket-on-sales-parra-pellegrino/" target="_blank" rel="noopener noreferrer" class="text-slate-200 hover:text-emerald-400 transition ml-2">Handling High Demand Ticket On-Sales</a>
           <span class="text-slate-600"> — live from QCon London</span>
+        </li>
+        <li class="bg-slate-900/40 p-3 border border-slate-900 rounded hover:border-slate-800 transition">
+          <span class="text-slate-500">[AWS Architecture 2021]</span>
+          <a href="https://aws.amazon.com/blogs/architecture/build-a-virtual-waiting-room-with-amazon-dynamodb-and-aws-lambda-at-seatgeek/" target="_blank" rel="noopener noreferrer" class="text-slate-200 hover:text-emerald-400 transition ml-2">Build a Virtual Waiting Room with DynamoDB and Lambda at SeatGeek</a>
+          <span class="text-slate-600"> — co-author (Ander Parra)</span>
         </li>
         <li class="bg-slate-900/40 p-3 border border-slate-900 rounded hover:border-slate-800 transition">
           <span class="text-slate-500">[AWS HPC Blog 2023]</span>
