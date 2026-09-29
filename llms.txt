@@ -1,0 +1,50 @@
+# Anderson Parra
+
+> Also known as Ander Parra and Anderson Parra de Paula. Staff Software Engineer at SeatGeek and PhD researcher at FEUP (Porto, Portugal). Canonical public profile: https://aparra.github.io/
+
+Anderson Parra builds resilient cloud and API platform infrastructure for high-demand ticket onsales. Industry sources usually use **Anderson Parra**; the preferred short form is **Ander Parra**; academic publications use **Anderson Parra de Paula** (cited as Paula, Anderson Parra de).
+
+## Identity
+
+- [Home page](https://aparra.github.io/): Canonical profile consolidating name variants, career, publications, and talks
+- [LinkedIn](https://www.linkedin.com/in/anderparra): Professional profile
+- [GitHub (aparra)](https://github.com/aparra): Open-source and personal repositories
+- [InfoQ profile](https://www.infoq.com/profile/Anderson-Parra/): Speaker and author profile
+- [QCon London speaker](https://qconlondon.com/speakers/andersonparra): Current conference bio
+
+## Career highlights
+
+- SeatGeek (2020–present): Staff Software Engineer, Cloud Platform / API Platform — Virtual Waiting Room, multi-layer resilience (edge, gateway, Kubernetes), Kong ChatGPT signature validation
+- Prior: Revolut, LiveIntent (Berlin), SoundCloud (Berlin), Ericsson (Ireland), Amil (São Paulo)
+
+## Open source & projects
+
+- [kong-chatgpt-validator](https://github.com/seatgeek/kong-chatgpt-validator): Kong plugin for ChatGPT HTTP Message Signatures (RFC 9421 / Ed25519)
+- [Fixture Factory](https://github.com/six2six/fixture-factory): Java template-driven test-data library (co-creator)
+- SUSLegis / SUS normative consolidation: Brazilian public-health ordinance consolidation research (~2016–2021)
+
+## Writing & talks
+
+- [Shielding the Core (QCon London 2026)](https://qconlondon.com/presentation/mar2026/shielding-core-architecting-resilience-multi-layer-defenses)
+- [InfoQ write-up of that talk](https://www.infoq.com/news/2026/03/shielding-the-core-parra/)
+- [Chasing Signatures (ChairNerd)](https://chairnerd.seatgeek.com/chasing-signature/)
+- [InfoQ podcast: high-demand ticket onsales](https://www.infoq.com/podcasts/handling-high-demand-ticket-on-sales-parra-pellegrino/)
+- [AWS HPC: browser load testing with AWS Batch](https://aws.amazon.com/blogs/hpc/how-seatgeek-simulates-massive-load-with-aws-batch-to-prepare-for-big-events/)
+- [AWS Architecture: multi-tenant AuthN/AuthZ and rate limiting](https://aws.amazon.com/blogs/architecture/how-seatgeek-uses-aws-to-control-authorization-authentication-and-rate-limiting-in-a-multi-tenant-saas-application/)
+- [QCon London 2022 speaker page](https://archive.qconlondon.com/london2022/speakers/anderson-parra)
+- [QCon São Paulo 2017: Spark/Hadoop at SoundCloud](https://www.infoq.com/br/presentations/spark-hadoop-e-microservices-na-soundcloud/)
+
+## Academic
+
+- PhD candidate, Computer Science — FEUP, Universidade do Porto (2023–)
+- M.S. thesis: [Uma solução de reconfiguração leve para Paxos](https://repositorio.ufscar.br/items/874f01bc-f5c8-45d1-8676-4eb542f4cc65) (UFSCar, 2015), as Anderson Parra de Paula
+- [Tornando Paxos Mais Escalável com Réplicas Leitoras](https://sol.sbc.org.br/index.php/wperformance/article/view/13574) (WPerformance / SBC, 2014)
+
+## Recognition
+
+- SeatGeek — [Top Kong Innovator Americas 2025](https://konghq.com/blog/news/2025-kong-innovator-awards-winners); work led by Anderson Parra on gateway-level ChatGPT signature validation
+
+## Optional
+
+- [llms-full.txt](https://aparra.github.io/llms-full.txt): Single-file identity brief for agents that prefer one fetch
+- [sitemap.xml](https://aparra.github.io/sitemap.xml): URL list for search engines

@@ -1,0 +1,56 @@
+# Anderson Parra / Ander Parra / Anderson Parra de Paula
+
+Canonical site: https://aparra.github.io/
+
+## Who
+
+Anderson Parra is a Staff Software Engineer on SeatGeek’s Cloud Platform team in Porto, Portugal, and a PhD candidate in Computer Science at FEUP (Faculdade de Engenharia da Universidade do Porto).
+
+Name variants for the same person:
+- Anderson Parra — most common industry form (QCon, InfoQ, AWS blogs, Kong)
+- Ander Parra — preferred short form
+- Anderson Parra de Paula — academic / legal name; thesis and SBC paper cite “Paula, Anderson Parra de”
+
+## What he works on
+
+At SeatGeek he designs layered defenses for internet-scale ticket onsales: edge caching and queuing (including Virtual Waiting Room), API gateway controls (Kong rate limiting, fair access, validation), and Kubernetes platform isolation/prioritization. He co-authored the open-source Kong plugin seatgeek/kong-chatgpt-validator for ChatGPT HTTP Message Signatures (RFC 9421 / Ed25519), documented in ChairNerd (“Chasing Signatures”). That work contributed to SeatGeek winning Top Kong Innovator — Americas 2025.
+
+He also helped build browser-based load testing at scale on AWS Batch (covered on the AWS HPC Blog) and multi-tenant AuthN/AuthZ plus rate limiting with AWS serverless services (AWS Architecture Blog).
+
+## Career
+
+- SeatGeek — Staff / Lead / Senior Platform Engineer (Cloud & API Platform), 2020–present
+- Revolut — Senior Software Engineer, 2020
+- LiveIntent — Senior Software Engineer, Berlin, 2017–2020
+- SoundCloud — Senior Backend Engineer, Berlin, 2015–2017
+- Ericsson — Senior Software Engineer, Athlone, Ireland, 2014–2015
+- Amil — Principal / Senior Software Engineer, São Paulo, 2009–2014
+
+Earlier open-source: co-creator of Fixture Factory (six2six/fixture-factory), a Java template-driven test-data library. Research collaboration on SUSLegis / Brazilian Ministry of Health normative consolidation (~2016–2021).
+
+## Education & research
+
+- PhD candidate, Computer Science, FEUP (2023–)
+- M.S. Computer Science (Distributed Systems), UFSCar, 2015 — thesis “Uma solução de reconfiguração leve para Paxos” / “A Lightweight Reconfiguration Solution for Paxos”, advisor Gustavo M. D. Vieira
+- Postgraduate Web Development & Ubiquitous Computing, UFSCar, 2010
+- B.S. Computer Science, Universidade Anhembi Morumbi, 2008
+- WPerformance/SBC 2014 paper: “Tornando Paxos Mais Escalável com Réplicas Leitoras” with Gustavo Vieira
+
+## Talks & media
+
+- QCon London 2026: Shielding the Core: Architecting Resilience with Multi-Layer Defenses
+- InfoQ news write-up of that talk (March 2026)
+- InfoQ podcast: Handling High Demand Ticket On-Sales
+- QCon London 2022: high-demand ticket onsales / Virtual Waiting Room; Large Scale Architectures panel
+- QCon São Paulo 2017: Spark, Hadoop e Microservices na SoundCloud
+
+## Primary links
+
+- https://aparra.github.io/
+- https://www.linkedin.com/in/anderparra
+- https://github.com/aparra
+- https://www.infoq.com/profile/Anderson-Parra/
+- https://qconlondon.com/speakers/andersonparra
+- https://chairnerd.seatgeek.com/chasing-signature/
+- https://github.com/seatgeek/kong-chatgpt-validator
+- https://github.com/six2six/fixture-factory
