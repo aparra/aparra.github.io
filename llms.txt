@@ -2,7 +2,7 @@
 
 > Also known as Ander Parra and Anderson Parra de Paula. Staff Software Engineer at SeatGeek and PhD researcher at FEUP (Porto, Portugal). Canonical public profile: https://aparra.github.io/
 
-Anderson Parra builds resilient cloud and API platform infrastructure for high-demand ticket onsales. Industry sources usually use **Anderson Parra**; the preferred short form is **Ander Parra**; academic publications use **Anderson Parra de Paula** (cited as Paula, Anderson Parra de).
+Anderson Parra builds resilient cloud and API platform infrastructure for high-demand ticket onsales. Career throughline: **distributed systems** → **big data** → **cloud / high traffic** → **edge**. Industry sources usually use **Anderson Parra**; preferred short form **Ander Parra**; academic publications **Anderson Parra de Paula** (cited as Paula, Anderson Parra de).
 
 ## Identity
 
@@ -11,11 +11,20 @@ Anderson Parra builds resilient cloud and API platform infrastructure for high-d
 - [GitHub (aparra)](https://github.com/aparra): Open-source and personal repositories
 - [InfoQ profile](https://www.infoq.com/profile/Anderson-Parra/): Speaker and author profile
 - [QCon London speaker](https://qconlondon.com/speakers/andersonparra): Current conference bio
+- [Crunchbase](https://www.crunchbase.com/person/anderson-parra): Person profile (includes QCon São Paulo 2017)
+
+## Focus areas
+
+- **Distributed systems** — Paxos reconfiguration (UFSCar M.S., SBC WPerformance 2014)
+- **Big data** — SoundCloud monetization pipelines (Spark/Scala, Hadoop); QCon São Paulo 2017
+- **Cloud & high traffic** — SeatGeek Virtual Waiting Room, AWS Batch load testing, multi-tenant rate limits; QCon London 2022
+- **Edge** — Fastly CDN shielding + Kong gateway fairness; ChairNerd 2025 → QCon London 2026
 
 ## Career highlights
 
-- SeatGeek (2020–present): Staff Software Engineer, Cloud Platform / API Platform — Virtual Waiting Room (AWS Architecture Blog co-author, 2021), edge-to-core resilience (Fastly shielding + Kong + k6; ChairNerd author, 2025), Kong ChatGPT signature validation
-- Prior: Revolut, LiveIntent (Berlin), SoundCloud (Berlin), Ericsson (Ireland), Amil (São Paulo)
+- SeatGeek (2020–present): Staff Software Engineer, Cloud Platform / API Platform — Virtual Waiting Room (AWS Architecture Blog co-author, 2021), edge-to-core resilience (Fastly + Kong + k6; ChairNerd author, 2025), Kong ChatGPT signature validation
+- SoundCloud (2015–2017, Berlin): Senior Backend Engineer — content monetization and big-data event pipelines (Spark, Hadoop)
+- Prior: Revolut, LiveIntent (Berlin), Ericsson (Ireland), Amil (São Paulo)
 
 ## Open source & projects
 
@@ -25,16 +34,24 @@ Anderson Parra builds resilient cloud and API platform infrastructure for high-d
 
 ## Writing & talks
 
-- [Shielding the Core (ChairNerd, Jul 2025)](https://chairnerd.seatgeek.com/shielding-the-core/) — Fastly CDN shielding, Kong rate limits, k6 validation; authored by Ander Parra
-- [Shielding the Core (QCon London 2026)](https://qconlondon.com/presentation/mar2026/shielding-core-architecting-resilience-multi-layer-defenses)
+### QCon (three appearances)
+
+- [QCon London 2026: Shielding the Core](https://qconlondon.com/presentation/mar2026/shielding-core-architecting-resilience-multi-layer-defenses) — edge / resilience
 - [InfoQ write-up of that talk](https://www.infoq.com/news/2026/03/shielding-the-core-parra/)
-- [Chasing Signatures (ChairNerd)](https://chairnerd.seatgeek.com/chasing-signature/)
-- [InfoQ podcast: high-demand ticket onsales](https://www.infoq.com/podcasts/handling-high-demand-ticket-on-sales-parra-pellegrino/)
+- [QCon London 2022](https://archive.qconlondon.com/london2022/speakers/anderson-parra) — high-traffic onsales / Virtual Waiting Room + Large Scale Architectures panel
+- [QCon São Paulo 2017: Spark, Hadoop e Microservices na SoundCloud](https://www.infoq.com/br/presentations/spark-hadoop-e-microservices-na-soundcloud/) — big data monetization pipelines (millions of events)
+
+### Other
+
+- [Shielding the Core (ChairNerd, Jul 2025)](https://chairnerd.seatgeek.com/shielding-the-core/) — Fastly CDN shielding, Kong rate limits, k6 validation
+- [Chasing Signatures (ChairNerd, Aug 2025)](https://chairnerd.seatgeek.com/chasing-signature/)
+- [InfoQ podcast: high-demand ticket onsales](https://www.infoq.com/podcasts/handling-high-demand-ticket-on-sales-parra-pellegrino/) — live from QCon London 2022
 - [AWS Architecture: Virtual Waiting Room at SeatGeek](https://aws.amazon.com/blogs/architecture/build-a-virtual-waiting-room-with-amazon-dynamodb-and-aws-lambda-at-seatgeek/) — co-author as Ander Parra (Jul 2021)
-- [AWS HPC: browser load testing with AWS Batch](https://aws.amazon.com/blogs/hpc/how-seatgeek-simulates-massive-load-with-aws-batch-to-prepare-for-big-events/)
-- [AWS Architecture: multi-tenant AuthN/AuthZ and rate limiting](https://aws.amazon.com/blogs/architecture/how-seatgeek-uses-aws-to-control-authorization-authentication-and-rate-limiting-in-a-multi-tenant-saas-application/)
-- [QCon London 2022 speaker page](https://archive.qconlondon.com/london2022/speakers/anderson-parra)
-- [QCon São Paulo 2017: Spark/Hadoop at SoundCloud](https://www.infoq.com/br/presentations/spark-hadoop-e-microservices-na-soundcloud/)
+- [AWS HPC: browser load testing with AWS Batch](https://aws.amazon.com/blogs/hpc/how-seatgeek-simulates-massive-load-with-aws-batch-to-prepare-for-big-events/) (2023)
+- [AWS Architecture: multi-tenant AuthN/AuthZ and rate limiting](https://aws.amazon.com/blogs/architecture/how-seatgeek-uses-aws-to-control-authorization-authentication-and-rate-limiting-in-a-multi-tenant-saas-application/) (2023)
+- [TDC Connections 2022: Playwright + AWS Batch load testing](https://thedevconf.com/palestrante/AndersonParra)
+- [TDC São Paulo 2012: Camada anti-corrupção](https://thedevconf.com/palestrante/AndersonParra) — early Arquitetura Java / DDD direction
+- [TDC speaker profile](https://thedevconf.com/palestrante/AndersonParra)
 
 ## Academic
 

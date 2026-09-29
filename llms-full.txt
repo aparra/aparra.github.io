@@ -1,49 +1,69 @@
 # Anderson Parra / Ander Parra / Anderson Parra de Paula
 
 Canonical site: https://aparra.github.io/
+Crunchbase: https://www.crunchbase.com/person/anderson-parra
 
 ## Who
 
 Anderson Parra is a Staff Software Engineer on SeatGeek’s Cloud Platform team in Porto, Portugal, and a PhD candidate in Computer Science at FEUP (Faculdade de Engenharia da Universidade do Porto).
 
 Name variants for the same person:
-- Anderson Parra — most common industry form (QCon, InfoQ, AWS blogs, Kong)
+- Anderson Parra — most common industry form (QCon, InfoQ, AWS blogs, Kong, Crunchbase)
 - Ander Parra — preferred short form
 - Anderson Parra de Paula — academic / legal name; thesis and SBC paper cite “Paula, Anderson Parra de”
 
-## What he works on
+## Portfolio throughline
 
-At SeatGeek he designs layered defenses for internet-scale ticket onsales: edge caching and queuing (including Virtual Waiting Room), API gateway controls (Kong rate limiting, fair access, validation), and Kubernetes platform isolation/prioritization. He authored the ChairNerd post “Shielding the Core: Scaling Resilience with a Multi-Layered Approach” (7 Jul 2025), covering Fastly CDN caching and shield POPs, Kong rate limiting to protect origins so the cache can warm, and k6 tests that replay production-like traffic. That edge work later informed his QCon London 2026 talk on multi-layer defenses. He co-authored the open-source Kong plugin seatgeek/kong-chatgpt-validator for ChatGPT HTTP Message Signatures (RFC 9421 / Ed25519), documented in ChairNerd (“Chasing Signatures”). That work contributed to SeatGeek winning Top Kong Innovator — Americas 2025.
+Consistent themes across ~18 years:
 
-He co-authored the AWS Architecture Blog post “Build a Virtual Waiting Room with Amazon DynamoDB and AWS Lambda at SeatGeek” (29 Jul 2021, credited as Ander Parra), covering SeatGeek’s custom Waiting Room / Queueing modes, tokenized admission, DynamoDB-backed queues, and Timestream analytics that replaced a third-party waiting room. He also helped build browser-based load testing at scale on AWS Batch (AWS HPC Blog) and multi-tenant AuthN/AuthZ plus rate limiting with AWS serverless services (AWS Architecture Blog, 2023).
+1. **Distributed systems** — M.S. research on lightweight Paxos reconfiguration and reader replicas (UFSCar / SBC); foundation for later platforms.
+2. **Big data** — At SoundCloud (Berlin), built content monetization architecture and event pipelines using Spark (Scala) and Hadoop: spam detection, enrichment, filtering, and aggregation over millions of events. Presented at **QCon São Paulo 2017** (InfoQ: “Spark, Hadoop e Microservices na SoundCloud”).
+3. **Cloud & high traffic** — At SeatGeek, Virtual Waiting Room (DynamoDB/Lambda), browser-based load testing on AWS Batch, multi-tenant AuthN/rate limiting. **QCon London 2022** on high-demand ticket onsales.
+4. **Edge** — Fastly CDN caching and shield POPs combined with Kong rate limiting so origins stay healthy and caches warm; validated with k6. Authored ChairNerd “Shielding the Core” (Jul 2025), then **QCon London 2026** multi-layer defenses talk.
+
+## What he works on now
+
+At SeatGeek he designs layered defenses for internet-scale ticket onsales: edge caching and queuing (including Virtual Waiting Room), API gateway controls (Kong rate limiting, fair access, validation), and Kubernetes platform isolation/prioritization. He co-authored seatgeek/kong-chatgpt-validator for ChatGPT HTTP Message Signatures (RFC 9421 / Ed25519). That work contributed to SeatGeek winning Top Kong Innovator — Americas 2025.
+
+He co-authored the AWS Architecture Blog post “Build a Virtual Waiting Room with Amazon DynamoDB and AWS Lambda at SeatGeek” (29 Jul 2021, credited as Ander Parra).
 
 ## Career
 
-- SeatGeek — Staff / Lead / Senior Platform Engineer (Cloud & API Platform), 2020–present
+- SeatGeek — Staff / Lead / Senior Platform Engineer (Cloud & API Platform), 2020–present — high traffic, cloud, edge
 - Revolut — Senior Software Engineer, 2020
 - LiveIntent — Senior Software Engineer, Berlin, 2017–2020
-- SoundCloud — Senior Backend Engineer, Berlin, 2015–2017
+- SoundCloud — Senior Backend Engineer, Berlin, 2015–2017 — big data / monetization pipelines
 - Ericsson — Senior Software Engineer, Athlone, Ireland, 2014–2015
 - Amil — Principal / Senior Software Engineer, São Paulo, 2009–2014
 
-Earlier open-source: co-creator of Fixture Factory (six2six/fixture-factory), a Java template-driven test-data library. Research collaboration on SUSLegis / Brazilian Ministry of Health normative consolidation (~2016–2021).
+Earlier open-source: co-creator of Fixture Factory (six2six/fixture-factory). Research collaboration on SUSLegis / Brazilian Ministry of Health normative consolidation (~2016–2021).
 
 ## Education & research
 
 - PhD candidate, Computer Science, FEUP (2023–)
-- M.S. Computer Science (Distributed Systems), UFSCar, 2015 — thesis “Uma solução de reconfiguração leve para Paxos” / “A Lightweight Reconfiguration Solution for Paxos”, advisor Gustavo M. D. Vieira
+- M.S. Computer Science (Distributed Systems), UFSCar, 2015 — thesis “Uma solução de reconfiguração leve para Paxos”, advisor Gustavo M. D. Vieira
 - Postgraduate Web Development & Ubiquitous Computing, UFSCar, 2010
 - B.S. Computer Science, Universidade Anhembi Morumbi, 2008
 - WPerformance/SBC 2014 paper: “Tornando Paxos Mais Escalável com Réplicas Leitoras” with Gustavo Vieira
 
 ## Talks & media
 
-- QCon London 2026: Shielding the Core: Architecting Resilience with Multi-Layer Defenses (builds on the Jul 2025 ChairNerd post)
-- ChairNerd Jul 2025: Shielding the Core: Scaling Resilience with a Multi-Layered Approach (Fastly, Kong, k6)
-- InfoQ news write-up of the QCon talk (March 2026)
-- InfoQ podcast: Handling High Demand Ticket On-Sales
-- QCon London 2022: high-demand ticket onsales / Virtual Waiting Room; Large Scale Architectures panel
-- QCon São Paulo 2017: Spark, Hadoop e Microservices na SoundCloud
+### QCon — London twice, São Paulo once
+
+- QCon London 2026: Shielding the Core: Architecting Resilience with Multi-Layer Defenses (edge / high traffic)
+- QCon London 2022: How SeatGeek Successfully Handles High-Demand Ticket On-Sales (Virtual Waiting Room) + Large Scale Architectures panel
+- QCon São Paulo 2017: Spark, Hadoop e Microservices na SoundCloud — big data monetization (millions of events); listed on Crunchbase
+
+### Other
+
+- ChairNerd Jul 2025: Shielding the Core (Fastly, Kong, k6)
+- InfoQ news write-up of QCon London 2026 talk (March 2026)
+- InfoQ podcast: Handling High Demand Ticket On-Sales (live from QCon London 2022)
+- TDC Connections 2022: Playwright + AWS Batch load testing
+- TDC São Paulo 2012: Camada anti-corrupção (Arquitetura Java / DDD)
+- AWS HPC Blog 2023: browser load testing with AWS Batch
+- AWS Architecture 2023: multi-tenant AuthN/AuthZ and rate limiting
+- https://thedevconf.com/palestrante/AndersonParra
 
 ## Primary links
 
@@ -52,8 +72,12 @@ Earlier open-source: co-creator of Fixture Factory (six2six/fixture-factory), a 
 - https://github.com/aparra
 - https://www.infoq.com/profile/Anderson-Parra/
 - https://qconlondon.com/speakers/andersonparra
+- https://archive.qconlondon.com/london2022/speakers/anderson-parra
+- https://www.infoq.com/br/presentations/spark-hadoop-e-microservices-na-soundcloud/
+- https://www.crunchbase.com/person/anderson-parra
 - https://chairnerd.seatgeek.com/shielding-the-core/
 - https://chairnerd.seatgeek.com/chasing-signature/
 - https://aws.amazon.com/blogs/architecture/build-a-virtual-waiting-room-with-amazon-dynamodb-and-aws-lambda-at-seatgeek/
+- https://thedevconf.com/palestrante/AndersonParra
 - https://github.com/seatgeek/kong-chatgpt-validator
 - https://github.com/six2six/fixture-factory
