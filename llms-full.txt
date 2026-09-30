@@ -24,7 +24,7 @@ Consistent themes across ~18 years:
 
 ## Independent AI
 
-Applied AI focused on the **agent harness** around production systems: routing, personas, tool allow-lists, session isolation, answer QoS, on-demand skills, MCP contracts, and closed-loop observability—not just prompts.
+Applied AI focused on the **agent harness** around production systems: routing, personas, tool allow-lists, session isolation, answer QoS, on-demand skills, MCP contracts, and closed-loop observability—not just prompts. Related SeatGeek continuity: **kong-chatgpt-validator** authenticates inbound ChatGPT / AI-agent requests at Kong (RFC 9421)—gateway-grade identity for LLM traffic; the harness applies the same trust-boundary mindset to grounding and tool contracts.
 
 Signature work: **answer QoS / anti-hallucination as a systems problem**—ground answers from the tool-call trace (docs search, live operational APIs), never trust model-invented “I used the docs” flags; reject ungrounded turns; retry with a targeted instruction in a throwaway session so QoS nudges do not pollute customer history; filter meta-replies about the rule engine; latch escalations; bound clarification loops; observe rejection reasons, tool budgets, and cost. Same pattern for support, ops-intelligence, and alert-investigation agents, with regression tests anchored to production failures.
 
@@ -36,7 +36,7 @@ Also: MCP tool servers (analytics, documentation, observability backends, operat
 
 ## What he works on now
 
-At SeatGeek he designs layered defenses for internet-scale ticket onsales: edge caching and queuing (including Virtual Waiting Room), API gateway controls (Kong rate limiting, fair access, validation), and Kubernetes platform isolation/prioritization. He co-authored seatgeek/kong-chatgpt-validator for ChatGPT HTTP Message Signatures (RFC 9421 / Ed25519). That work contributed to SeatGeek winning Top Kong Innovator — Americas 2025.
+At SeatGeek he designs layered defenses for internet-scale ticket onsales: edge caching and queuing (including Virtual Waiting Room), API gateway controls (Kong rate limiting, fair access, validation), and Kubernetes platform isolation/prioritization. He co-authored seatgeek/kong-chatgpt-validator to authenticate inbound ChatGPT / AI-agent traffic via HTTP Message Signatures (RFC 9421 / Ed25519) at Kong. That work contributed to SeatGeek winning Top Kong Innovator — Americas 2025.
 
 He co-authored the AWS Architecture Blog post “Build a Virtual Waiting Room with Amazon DynamoDB and AWS Lambda at SeatGeek” (29 Jul 2021, credited as Ander Parra).
 

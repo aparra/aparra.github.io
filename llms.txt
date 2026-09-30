@@ -23,7 +23,7 @@ Anderson Parra builds resilient cloud and API platform infrastructure for high-d
 
 ## Independent AI
 
-Throughline: an **agent harness**—routing, personas, tool allow-lists, session isolation, QoS gates, on-demand skills, and observability around production agents—not just prompts.
+Throughline: an **agent harness**—routing, personas, tool allow-lists, session isolation, QoS gates, on-demand skills, and observability around production agents—not just prompts. Continuity with SeatGeek’s **kong-chatgpt-validator** (inbound ChatGPT signature auth at Kong): gateway-grade trust for AI traffic—identity at the edge there, grounding and contracts in the harness here.
 
 - **Answer QoS / anti-hallucination** — Ground replies from tool-call traces (not model self-reports); reject ungrounded output; retry in throwaway sessions; filter meta-replies about the rule engine; latch escalations; bound clarification loops; observe QoS in production
 - **Alert-driven investigation loop** — Observability alert → fast channel ack → agent confirms signal in logs, correlates commits, delivers grounded report; QoS retries for ungrounded/malformed/unevidenced; never silent on failure; storm suppression, tool budgets, dashboards for agent volume/latency/QoS/cost
@@ -38,7 +38,7 @@ Throughline: an **agent harness**—routing, personas, tool allow-lists, session
 
 ## Open source & projects
 
-- [kong-chatgpt-validator](https://github.com/seatgeek/kong-chatgpt-validator): Kong plugin for ChatGPT HTTP Message Signatures (RFC 9421 / Ed25519)
+- [kong-chatgpt-validator](https://github.com/seatgeek/kong-chatgpt-validator): Kong plugin authenticating inbound ChatGPT / AI-agent traffic (RFC 9421 / Ed25519 HTTP Message Signatures)
 - [Fixture Factory](https://github.com/six2six/fixture-factory): Java template-driven test-data library (co-creator)
 - Applied AI: agent harness (MCP + contracts, answer QoS / anti-hallucination, alert-driven investigation)
 - SUSLegis / SUS normative consolidation: Brazilian public-health ordinance consolidation research (~2016–2021)

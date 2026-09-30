@@ -339,12 +339,12 @@
           </p>
         </div>
 
-        <div class="bg-slate-900 border border-slate-800/60 p-5 rounded-lg">
+        <div class="bg-slate-900 border border-slate-800/60 p-5 rounded-lg" id="kong-chatgpt-validator">
           <div class="flex justify-between items-baseline gap-2">
             <h3 class="font-bold text-slate-200">kong-chatgpt-validator</h3>
             <span class="text-xs font-mono px-2 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800 shrink-0">Open Source</span>
           </div>
-          <p class="text-sm text-slate-400 mt-2 leading-relaxed">Kong plugin for ChatGPT HTTP Message Signatures (RFC 9421 / Ed25519). Co-authored with Connor Laidlaw; underpinning SeatGeek’s Top Kong Innovator — Americas 2025 recognition. <a href="https://github.com/seatgeek/kong-chatgpt-validator" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300">GitHub</a> · <a href="https://chairnerd.seatgeek.com/chasing-signature/" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300">ChairNerd</a></p>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed">Kong plugin that authenticates inbound ChatGPT / AI-agent traffic via HTTP Message Signatures (RFC 9421 / Ed25519)—gateway-grade identity for LLM-originated requests. Co-authored with Connor Laidlaw; underpinning SeatGeek’s Top Kong Innovator — Americas 2025 recognition. <a href="https://github.com/seatgeek/kong-chatgpt-validator" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300">GitHub</a> · <a href="https://chairnerd.seatgeek.com/chasing-signature/" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300">ChairNerd</a></p>
         </div>
 
         <div class="bg-slate-900 border border-slate-800/60 p-5 rounded-lg">
@@ -375,6 +375,7 @@
       <h2 id="ai-heading" class="text-xl font-bold uppercase tracking-wider text-violet-300/90 border-l-4 border-violet-500 pl-3 mb-2">Independent AI</h2>
       <p class="text-sm text-slate-500 mb-6 max-w-2xl">
         Building the <em>harness</em> around production agents—not just prompts: routing, personas, tool allow-lists, session isolation, answer QoS, skill loading, and closed-loop observability so agents review, troubleshoot, and react to alerts with grounded evidence.
+        Same edge mindset as verifying ChatGPT request signatures at Kong (<a href="#kong-chatgpt-validator" class="text-violet-400/90 hover:text-violet-300">kong-chatgpt-validator</a>): AI traffic needs gateway-grade trust boundaries—here the harness enforces grounding and contracts instead of signatures.
       </p>
       <div class="grid md:grid-cols-2 gap-6">
         <div class="bg-slate-900 border border-violet-900/40 p-5 rounded-lg md:col-span-2">
