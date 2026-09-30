@@ -20,6 +20,19 @@ Consistent themes across ~18 years:
 2. **Big data** — At SoundCloud (Berlin), built content monetization architecture and event pipelines using Spark (Scala) and Hadoop: spam detection, enrichment, filtering, and aggregation over millions of events. Presented at **QCon São Paulo 2017** (InfoQ: “Spark, Hadoop e Microservices na SoundCloud”).
 3. **Cloud & high traffic** — At SeatGeek, Virtual Waiting Room (DynamoDB/Lambda), browser-based load testing on AWS Batch, multi-tenant AuthN/rate limiting. **QCon London 2022** on high-demand ticket onsales.
 4. **Edge** — Fastly CDN caching and shield POPs combined with Kong rate limiting so origins stay healthy and caches warm; validated with k6. Authored ChairNerd “Shielding the Core” (Jul 2025), then **QCon London 2026** multi-layer defenses talk.
+5. **Applied AI (independent)** — Agent harnesses: MCP tools with contracts, multi-agent orchestration, answer QoS / anti-hallucination, alert-driven investigation, on-demand senior-engineering skills.
+
+## Independent AI
+
+Applied AI focused on the **agent harness** around production systems: routing, personas, tool allow-lists, session isolation, answer QoS, on-demand skills, MCP contracts, and closed-loop observability—not just prompts.
+
+Signature work: **answer QoS / anti-hallucination as a systems problem**—ground answers from the tool-call trace (docs search, live operational APIs), never trust model-invented “I used the docs” flags; reject ungrounded turns; retry with a targeted instruction in a throwaway session so QoS nudges do not pollute customer history; filter meta-replies about the rule engine; latch escalations; bound clarification loops; observe rejection reasons, tool budgets, and cost. Same pattern for support, ops-intelligence, and alert-investigation agents, with regression tests anchored to production failures.
+
+**Alert-driven investigation loop:** when an observability alert fires, a bridge acknowledges the team channel within seconds; an agent confirms the signal in logs, establishes incident start time, correlates recent commits, and posts a structured evidence-backed report. Reports pass the same QoS gates (ungrounded / malformed / unevidenced → targeted retry). If investigation fails, the system still delivers the raw alert plus an explicit failure line—never silent. Storm suppression, tool-call budgets, and timeouts control cost; dashboards track the agent’s own volume, latency, QoS rejections, and spend, tightening the realtime observability feedback loop.
+
+**On-demand senior engineering agent:** human-triggered skills loaded only when needed—PR review (diff-first, CI-aware), incident troubleshooting (logs + GitHub correlation), and fix proposals—keeping context short enough for large reviews.
+
+Also: MCP tool servers (analytics, documentation, observability backends, operational systems) with **contract tests** that lock schemas, argument validation, and response shapes; multi-agent orchestration (personas, tool allow-lists, session isolation, HTTP integration bridges).
 
 ## What he works on now
 

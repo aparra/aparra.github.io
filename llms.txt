@@ -2,7 +2,7 @@
 
 > Also known as Ander Parra and Anderson Parra de Paula. Staff Software Engineer at SeatGeek and PhD researcher at FEUP (Porto, Portugal). Canonical public profile: https://aparra.github.io/
 
-Anderson Parra builds resilient cloud and API platform infrastructure for high-demand ticket onsales. Career throughline: **distributed systems** → **big data** → **cloud / high traffic** → **edge**. Industry sources usually use **Anderson Parra**; preferred short form **Ander Parra**; academic publications **Anderson Parra de Paula** (cited as Paula, Anderson Parra de).
+Anderson Parra builds resilient cloud and API platform infrastructure for high-demand ticket onsales at SeatGeek, and builds applied AI **agent harnesses** with deterministic answer quality. Career throughline: **distributed systems** → **big data** → **cloud / high traffic** → **edge**, plus **applied AI (agent harness: MCP + contracts, answer QoS, alert loops)**. Industry sources usually use **Anderson Parra**; preferred short form **Ander Parra**; academic publications **Anderson Parra de Paula** (cited as Paula, Anderson Parra de).
 
 ## Identity
 
@@ -19,6 +19,16 @@ Anderson Parra builds resilient cloud and API platform infrastructure for high-d
 - **Big data** — SoundCloud monetization pipelines (Spark/Scala, Hadoop); QCon São Paulo 2017
 - **Cloud & high traffic** — SeatGeek Virtual Waiting Room, AWS Batch load testing, multi-tenant rate limits; QCon London 2022
 - **Edge** — Fastly CDN shielding + Kong gateway fairness; ChairNerd 2025 → QCon London 2026
+- **Applied AI (independent)** — Agent harness: MCP + contracts, answer QoS, alert-driven investigation, on-demand senior skills
+
+## Independent AI
+
+Throughline: an **agent harness**—routing, personas, tool allow-lists, session isolation, QoS gates, on-demand skills, and observability around production agents—not just prompts.
+
+- **Answer QoS / anti-hallucination** — Ground replies from tool-call traces (not model self-reports); reject ungrounded output; retry in throwaway sessions; filter meta-replies about the rule engine; latch escalations; bound clarification loops; observe QoS in production
+- **Alert-driven investigation loop** — Observability alert → fast channel ack → agent confirms signal in logs, correlates commits, delivers grounded report; QoS retries for ungrounded/malformed/unevidenced; never silent on failure; storm suppression, tool budgets, dashboards for agent volume/latency/QoS/cost
+- **On-demand senior engineering agent** — Skills loaded when needed: PR review (diff-first, CI-aware), log+GitHub troubleshooting, fix proposals; session hygiene for large reviews
+- **MCP tool servers + contracts** — Analytics, docs search, observability backends, operational systems as agent tools; contract tests for schemas, args, and response shapes
 
 ## Career highlights
 
@@ -30,6 +40,7 @@ Anderson Parra builds resilient cloud and API platform infrastructure for high-d
 
 - [kong-chatgpt-validator](https://github.com/seatgeek/kong-chatgpt-validator): Kong plugin for ChatGPT HTTP Message Signatures (RFC 9421 / Ed25519)
 - [Fixture Factory](https://github.com/six2six/fixture-factory): Java template-driven test-data library (co-creator)
+- Applied AI: agent harness (MCP + contracts, answer QoS / anti-hallucination, alert-driven investigation)
 - SUSLegis / SUS normative consolidation: Brazilian public-health ordinance consolidation research (~2016–2021)
 
 ## Writing & talks
