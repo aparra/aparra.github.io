@@ -9,10 +9,11 @@ Served via [GitHub Pages](https://aparra.github.io/).
 | Path | Purpose |
 |------|---------|
 | `index.html` | Human-facing profile + Schema.org JSON-LD |
-| `sitemap.xml` | Search-engine URL list |
+| `sitemap.xml` | Google/Bing sitemap — **homepage only** (do not list `llms*.txt` here) |
 | `robots.txt` | Crawl rules + sitemap pointer |
-| `llms.txt` | Curated index for AI agents ([llms.txt](https://llmstxt.org/) convention) |
+| `llms.txt` | Curated index for AI agents ([llms.txt](https://llmstxt.org/) convention) — not a Google sitemap |
 | `llms-full.txt` | Single-fetch identity brief for agents |
+| `.nojekyll` | Disable Jekyll processing on GitHub Pages |
 
 ## Local preview
 

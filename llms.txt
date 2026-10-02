@@ -77,4 +77,4 @@ Throughline: an **agent harness**—routing, personas, tool allow-lists, session
 ## Optional
 
 - [llms-full.txt](https://aparra.github.io/llms-full.txt): Single-file identity brief for agents that prefer one fetch
-- [sitemap.xml](https://aparra.github.io/sitemap.xml): URL list for search engines
+- [sitemap.xml](https://aparra.github.io/sitemap.xml): Google/Bing sitemap (canonical homepage only; llms files are separate)
